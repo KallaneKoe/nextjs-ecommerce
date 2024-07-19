@@ -15,7 +15,7 @@ export const metadata = {
   authors: [{ name: "Abdullah Moiz", url: "https://abdullahmoiz.vercel.app/" }],
 };
 
-//const CrispWithNoSSR = dynamic(() => import("../components/crisp"));
+const CrispWithNoSSR = dynamic(() => import("../components/crisp"));
 
 export default function RootLayout({
   children,
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*<CrispWithNoSSR />*/}
+      <CrispWithNoSSR />
       <body className={poppin.className}>
         <Providers>{children}</Providers>
       </body>

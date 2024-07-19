@@ -1,14 +1,14 @@
-// "use client";
+"use client";
 
-// import { useEffect } from "react";
-// import { Crisp } from "crisp-sdk-web";
+import { useEffect } from "react";
+import { Crisp } from "crisp-sdk-web";
 
-// const CrispChat = () => {
-//   useEffect(() => {
-//     Crisp.configure("MY_CRISP_WEBSITE_ID");
-//   });
+const CrispChat = () => {
+  useEffect(() => {
+    Crisp.configure("26f9e939-6298-40d0-8c07-13ab20110f3b");
+  });
 
-//   return null;
-// };
+  return null;
+};
 
-// export default CrispChat;
+export default CrispChat;
